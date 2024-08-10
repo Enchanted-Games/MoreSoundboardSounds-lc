@@ -1,10 +1,12 @@
-# Lethal Company Mod Template
+# MoreSoundboardSounds
+Adds a few more sounds to the meme soundboard. [MemeSoundboard](https://thunderstore.io/c/lethal-company/p/Flof/MemeSoundboard/) is required!
 
-A template for a Lethal Company mod. Just Ctrl-Shift-F and replace any instances of Template with your mod name.
-
-## Issues
-Report any issues on the Lethal Company Modding Discord.
-
-## Credits
-- EliteMasterEric: Programming
-- FoguDragon: Playtesting
+## Added sounds
+Currently this mod adds the following sounds:
+```
+- GET OUT
+- theres an impostor among us
+- AHHH HAELP HAELP HAELP
+- WAIT WAIT WAIT
+- *clunk* (metal pipe falling)
+```

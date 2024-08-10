@@ -43,11 +43,18 @@ namespace MoreSoundboardSounds
         private void LoadSounboardSounds()
         {
             string text = Path.Combine(Path.GetDirectoryName(((BaseUnityPlugin)this).Info.Location), "mss-sounds");
-            PluginLogger.LogInfo(text);
             Assets.LoadAssetBundle(text);
             AssetBundle bundle = Assets.GetBundle();
 
-            MemeSoundboardBase.AddNewSound("test sound", bundle.LoadAsset<AudioClip>("testsound"));
+            string soundPrefix = "[mss] ";
+
+            MemeSoundboardBase.AddNewSound(soundPrefix + "GET OUT", bundle.LoadAsset<AudioClip>("getout"));
+            MemeSoundboardBase.AddNewSound(soundPrefix + "theres an impostor among us", bundle.LoadAsset<AudioClip>("impostor"));
+            MemeSoundboardBase.AddNewSound(soundPrefix + "AHHH HAELP HAELP HAELP", bundle.LoadAsset<AudioClip>("haelp"));
+            MemeSoundboardBase.AddNewSound(soundPrefix + "WAIT WAIT WAIT", bundle.LoadAsset<AudioClip>("wait_wait_wait_wat_da_hell"));
+            MemeSoundboardBase.AddNewSound(soundPrefix + "*clunk*", bundle.LoadAsset<AudioClip>("metal_pipe"));
+
+            PluginLogger.LogInfo($"{PluginInfo.PLUGIN_NAME} ({PluginInfo.PLUGIN_GUID}) has successfully added sounds!");
         }
     }
 }
