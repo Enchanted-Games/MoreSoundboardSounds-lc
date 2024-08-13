@@ -1,7 +1,7 @@
 {
     "name": "MoreSoundboardSounds",
-    "version_number": "1.0.0",
-    "website_url": "https://github.com/EliteMasterEric/Template",
+    "version_number": "1.0.1",
+    "website_url": "https://github.com/Enchanted-Games/MoreSoundboardSounds-lc",
     "description": "Adds more sounds to the Meme Soundboard by Flof",
     "dependencies": [
         "BepInEx-BepInExPack-5.4.2100",
