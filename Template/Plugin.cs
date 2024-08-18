@@ -52,7 +52,8 @@ namespace MoreSoundboardSounds
             MemeSoundboardBase.AddNewSound(soundPrefix + "theres an impostor among us", bundle.LoadAsset<AudioClip>("impostor"));
             MemeSoundboardBase.AddNewSound(soundPrefix + "AHHH HAELP HAELP HAELP", bundle.LoadAsset<AudioClip>("haelp"));
             MemeSoundboardBase.AddNewSound(soundPrefix + "WAIT WAIT WAIT", bundle.LoadAsset<AudioClip>("wait_wait_wait_wat_da_hell"));
-            MemeSoundboardBase.AddNewSound(soundPrefix + "*clunk*", bundle.LoadAsset<AudioClip>("metal_pipe"));
+            MemeSoundboardBase.AddNewSound(soundPrefix + "keydrop.mp3", bundle.LoadAsset<AudioClip>("keydrop"));
+            MemeSoundboardBase.AddNewSound(soundPrefix + "although for one of you...", bundle.LoadAsset<AudioClip>("although_for_one_of_you"));
 
             PluginLogger.LogInfo($"{PluginInfo.PLUGIN_NAME} ({PluginInfo.PLUGIN_GUID}) has successfully added sounds!");
         }
