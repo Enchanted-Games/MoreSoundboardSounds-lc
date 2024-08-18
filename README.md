@@ -8,5 +8,6 @@ Currently this mod adds the following sounds:
 - theres an impostor among us
 - AHHH HAELP HAELP HAELP
 - WAIT WAIT WAIT
-- *clunk* (metal pipe falling)
+- keydrop.mp3
+- although for one of you...
 ```
