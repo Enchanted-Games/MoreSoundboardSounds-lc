@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.0
+Added 3 new sounds
+- skidaddle
+- YOU'LL NEVER SEE IT COMING
+- to be continued...
+
 ## 1.1.1
 Updated changelog and readme (i forgot lol)
 

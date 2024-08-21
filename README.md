@@ -10,4 +10,7 @@ Currently this mod adds the following sounds:
 - WAIT WAIT WAIT
 - keydrop.mp3
 - although for one of you...
+- skidaddle
+- YOU'LL NEVER SEE IT COMING
+- to be continued...
 ```

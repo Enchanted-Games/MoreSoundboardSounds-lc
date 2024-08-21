@@ -54,6 +54,9 @@ namespace MoreSoundboardSounds
             MemeSoundboardBase.AddNewSound(soundPrefix + "WAIT WAIT WAIT", bundle.LoadAsset<AudioClip>("wait_wait_wait_wat_da_hell"));
             MemeSoundboardBase.AddNewSound(soundPrefix + "keydrop.mp3", bundle.LoadAsset<AudioClip>("keydrop"));
             MemeSoundboardBase.AddNewSound(soundPrefix + "although for one of you...", bundle.LoadAsset<AudioClip>("although_for_one_of_you"));
+            MemeSoundboardBase.AddNewSound(soundPrefix + "skidaddle", bundle.LoadAsset<AudioClip>("goofy_run"));
+            MemeSoundboardBase.AddNewSound(soundPrefix + "YOU'LL NEVER SEE IT COMING", bundle.LoadAsset<AudioClip>("you_never_see_it_coming"));
+            MemeSoundboardBase.AddNewSound(soundPrefix + "to be continued...", bundle.LoadAsset<AudioClip>("to_be_continued"));
 
             PluginLogger.LogInfo($"{PluginInfo.PLUGIN_NAME} ({PluginInfo.PLUGIN_GUID}) has successfully added sounds!");
         }
