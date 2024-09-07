@@ -14,7 +14,7 @@ namespace MoreSoundboardSounds
     {
         public const string PLUGIN_ID = "MoreSoundboardSounds";
         public const string PLUGIN_NAME = "MoreSoundboardSounds";
-        public const string PLUGIN_VERSION = "1.0.0";
+        public const string PLUGIN_VERSION = "1.3.0";
         public const string PLUGIN_GUID = "games.enchanted.MoreSoundboardSounds";
     }
 
@@ -57,6 +57,8 @@ namespace MoreSoundboardSounds
             MemeSoundboardBase.AddNewSound(soundPrefix + "skidaddle", bundle.LoadAsset<AudioClip>("goofy_run"));
             MemeSoundboardBase.AddNewSound(soundPrefix + "YOU'LL NEVER SEE IT COMING", bundle.LoadAsset<AudioClip>("you_never_see_it_coming"));
             MemeSoundboardBase.AddNewSound(soundPrefix + "to be continued...", bundle.LoadAsset<AudioClip>("to_be_continued"));
+            MemeSoundboardBase.AddNewSound(soundPrefix + "i just lost my dawwwwg", bundle.LoadAsset<AudioClip>("lost_my_dawg"));
+            MemeSoundboardBase.AddNewSound(soundPrefix + "THIS IS A MOMENT IN HISTORY", bundle.LoadAsset<AudioClip>("take_a_picture"));
 
             PluginLogger.LogInfo($"{PluginInfo.PLUGIN_NAME} ({PluginInfo.PLUGIN_GUID}) has successfully added sounds!");
         }

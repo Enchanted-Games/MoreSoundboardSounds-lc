@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.3.0
+Added 2 new sounds
+- i just lost my dawwwwg
+- THIS IS A MOMENT IN HISTORY
+
+Fixed the BepInPlugin version
+
 ## 1.2.0
 Added 3 new sounds
 - skidaddle

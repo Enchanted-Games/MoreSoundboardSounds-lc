@@ -13,4 +13,6 @@ Currently this mod adds the following sounds:
 - skidaddle
 - YOU'LL NEVER SEE IT COMING
 - to be continued...
+- i just lost my dawwwwg
+- THIS IS A MOMENT IN HISTORY
 ```
